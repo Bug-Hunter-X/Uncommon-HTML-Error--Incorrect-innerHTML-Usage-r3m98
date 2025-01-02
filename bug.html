@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+  <script>
+    // Incorrectly using innerHTML to insert an entire <p> element, causing issues.
+    document.getElementById("myDiv").innerHTML = "<p>This is another paragraph.</p>"; 
+  </script>
+</body>
+</html>
